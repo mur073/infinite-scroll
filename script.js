@@ -38,9 +38,9 @@ function displayImages() {
     });
 
     setAttrs(img, {
-      src: photo.urls.regular,
-      alt: photo.alt_description,
-      title: photo.alt_description,
+      src: image.urls.regular,
+      alt: image.alt_description,
+      title: image.alt_description,
     });
 
     img.addEventListener("load", imageLoaded);
