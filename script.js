@@ -58,7 +58,6 @@ async function getImages() {
   } catch (error) {
     console.log(error);
   }
-  console.log(images);
 }
 
 getImages();
